@@ -38,7 +38,7 @@
     },
     {
       "taskType": "DEPLOY_TEST",
-	  "enable": false
+	  "enable": false,
       "platform": {
         "clusterId": "ocp-test",
         "project": "pipeline-demo-test"
