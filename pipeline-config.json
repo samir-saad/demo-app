@@ -5,19 +5,19 @@
   "stages": [
     {
       "taskType": "UNIT_TESTING",
-	  "enable": false
+	  "enable": true
 	},
 	{
       "taskType": "QUALITY_SCANNING",
-	  "enable": false
+	  "enable": true
 	},
 	{
       "taskType": "DEPENDENCY_CHECK",
-	  "enable": false
+	  "enable": true
 	},
 	{
       "taskType": "BINARIES_ARCHIVE",
-	  "enable": false
+	  "enable": true
 	},
 	{
       "taskType": "CONTAINER_BUILD",
@@ -33,12 +33,12 @@
         "project": "pipeline-demo-dev"
       },
       "testing": {
-        "enable": false
+        "enable": true
       }
     },
     {
       "taskType": "DEPLOY_TEST",
-	  "enable": false,
+	  "enable": true,
       "platform": {
         "clusterId": "ocp-test",
         "project": "pipeline-demo-test"
