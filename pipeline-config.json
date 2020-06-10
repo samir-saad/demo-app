@@ -42,6 +42,33 @@
       "platform": {
         "clusterId": "ocp-test",
         "project": "pipeline-demo-test"
+      },
+      "testing": {
+        "enable": true
+      }
+    },
+    {
+      "taskType": "DEPLOY_QA",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-test",
+        "project": "pipeline-demo-qa"
+      }
+    },
+    {
+      "taskType": "DEPLOY_STG",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-test",
+        "project": "pipeline-demo-stg"
+      }
+    },
+    {
+      "taskType": "DEPLOY_PROD",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-prod",
+        "project": "pipeline-demo-prod"
       }
     }
   ]
