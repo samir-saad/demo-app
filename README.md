@@ -1,1 +1,8 @@
 # demo-app
+
+
+|Branch   |Build Status   |Quality Status   |Coverage   |Security Rating   |
+|---|---|---|---|---|
+|master   |[![Build Status](http://ssaad.ddns.net:58080/buildStatus/icon?job=demo-app%2Fmaster)](http://ssaad.ddns.net:58080/job/demo-app/job/master)   |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=master&metric=alert_status)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=master)   |[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=master&metric=coverage)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=master)   |[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=master&metric=security_rating)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=master)   |
+|develop   |[![Build Status](http://ssaad.ddns.net:58080/buildStatus/icon?job=demo-app%2Fdevelop)](http://ssaad.ddns.net:58080/job/demo-app/job/develop)   |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=develop&metric=alert_status)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=develop)   |[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=develop&metric=coverage)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=develop)   |[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=org.group.demo%3Ademo-app&branch=develop&metric=security_rating)](https://sonarcloud.io/dashboard?id=org.group.demo%3Ademo-app&branch=develop)   |
+|   |   |   |   |   |
