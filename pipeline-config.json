@@ -5,19 +5,19 @@
   "stages": [
     {
       "taskType": "UNIT_TESTING",
-	  "enable": true
+	  "enable": false
 	},
 	{
       "taskType": "QUALITY_SCANNING",
-	  "enable": true
+	  "enable": false
 	},
 	{
       "taskType": "DEPENDENCY_CHECK",
-	  "enable": true
+	  "enable": false
 	},
 	{
       "taskType": "BINARIES_ARCHIVE",
-	  "enable": true
+	  "enable": false
 	},
 	{
       "taskType": "CONTAINER_BUILD",
@@ -42,6 +42,30 @@
       "platform": {
         "clusterId": "ocp-test",
         "project": "pipeline-demo-test"
+      }
+    },
+    {
+      "taskType": "DEPLOY_QA",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-test",
+        "project": "pipeline-demo-qa"
+      }
+    },
+    {
+      "taskType": "DEPLOY_STG",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-test",
+        "project": "pipeline-demo-stg"
+      }
+    },
+    {
+      "taskType": "DEPLOY_PROD",
+      "enable": true,
+      "platform": {
+        "clusterId": "ocp-prod",
+        "project": "pipeline-demo-prod"
       }
     }
   ]
