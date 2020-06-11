@@ -21,6 +21,7 @@
 	},
 	{
       "taskType": "CONTAINER_BUILD",
+      "enable": false,
       "platform": {
         "clusterId": "ocp-dev",
         "project": "pipeline-demo-dev"
